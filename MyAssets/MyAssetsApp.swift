@@ -9,6 +9,8 @@ import SwiftUI
 
 @main
 struct MyAssetsApp: App {
+    
+    @UIApplicationDelegateAdaptor var delegate: MyAppDelegate
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {
